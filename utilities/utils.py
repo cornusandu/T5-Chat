@@ -80,4 +80,4 @@ class Users(SQL_Class):
     def save_sql(self, conn: sqlite3.Connection):
         conn.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, password TEXT, display_name TEXT, description TEXT, instructions TEXT)")
         conn.execute("INSERT INTO users (id, username, password, display_name, description, instructions) VALUES (?, ?, ?, ?, ?, ?)", (self.id, self.username, self.password, self.display_name, self.description, self.instructions))
-        conn.commit()
+        conn.commit() 

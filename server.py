@@ -25,12 +25,13 @@ class SignupData(BaseModel):
     username: str
     password: str
 
+
 # Serve index.html at root
 @app.get("/")
 async def read_root():
     return "<h1> T5 Chat </h1>This is mainly used for API endpoints, not as a website!"
 
-@app.post('/api/signup')
+@app.post('/api/signup') 
 async def signup(username, password):
     user = utils.Users(0, username, password)
     #username = data.username

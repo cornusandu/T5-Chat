@@ -4,7 +4,7 @@ import torch
 import json
 import os
 
-# Function to determine the best available device
+# Function to determine the best available device 
 def get_device():
     if torch.cuda.is_available():
         # Check available GPUs and select the one with most free memory

@@ -12,3 +12,4 @@
 *.env
 *.pyc
 log.json
+parser.py

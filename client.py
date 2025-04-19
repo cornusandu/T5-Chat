@@ -152,7 +152,7 @@ class App(ctk.CTk):
             self.username = username
             self.password = password
 
-    def login(self):
+    def login(self): 
         global IP
         username = self.signup_page.username_entry.get()
         password = self.signup_page.password_entry.get()
