@@ -1,0 +1,14 @@
+/.env
+/.idea
+/.idea/*
+/.venv
+/utilities/__pycache__
+/utilities/__pycache__/*
+/db.db
+/__pycache__
+/__pycache__/*
+.*
+*.db
+*.env
+*.pyc
+log.json
