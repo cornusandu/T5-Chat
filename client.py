@@ -175,7 +175,7 @@ class App(ctk.CTk):
 
 ctk.set_appearance_mode("dark")
 
-IP = input("Please input the server's IP address: ")
+IP = input("Please input the server's IP address (provided by a developer): ")
 
 app = App()
 app.mainloop()
